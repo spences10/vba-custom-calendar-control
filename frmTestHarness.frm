@@ -25,7 +25,7 @@ End Sub
 Private Sub imgCalendarButton_Click()
 
   If txtDate.Text = "" Then
-     ' do nothing
+     '// do nothing
   Else
      If IsDate(txtDate.Text) = True Then
         Load frmCustomCalendarControl
@@ -40,12 +40,12 @@ Private Sub imgCalendarButton_Click()
   If frmCustomCalendarControl.SelectedDayNumber = 0 And _
      frmCustomCalendarControl.SelectedMonthNumber = 0 And _
      frmCustomCalendarControl.SelectedYearNumber = 0 Then
-     ' user click on the cancel button in the calendar control therefore do nothing
+     '// user click on the cancel button in the calendar control therefore do nothing
   Else
      txtDate.Text = DateSerial(frmCustomCalendarControl.SelectedYearNumber, _
                                frmCustomCalendarControl.SelectedMonthNumber, _
                                frmCustomCalendarControl.SelectedDayNumber)
-     ' the following properties are also available from the customer control if you need them
+     '// the following properties are also available from the customer control if you need them
      Debug.Print "frmCustomCalendarControl.SelectedDateDDMMYYYY = " & frmCustomCalendarControl.SelectedDateDDMMYYYY
      Debug.Print "frmCustomCalendarControl.SelectedDayString = " & frmCustomCalendarControl.SelectedDayString
      Debug.Print "frmCustomCalendarControl.SelectedMonthString = " & frmCustomCalendarControl.SelectedMonthString
