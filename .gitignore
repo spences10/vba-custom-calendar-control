@@ -1,0 +1,9 @@
+# Excel temporary files
+~*
+
+# Build files
+*.xlsm
+*.xlam
+*.xla
+*.zip
+deploy
