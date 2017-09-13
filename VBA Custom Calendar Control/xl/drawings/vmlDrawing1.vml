@@ -1,0 +1,24 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel">
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout><v:shapetype id="_x0000_t201" coordsize="21600,21600" o:spt="201"
+  path="m,l,21600r21600,l21600,xe">
+  <v:stroke joinstyle="miter"/>
+  <v:path shadowok="f" o:extrusionok="f" strokeok="f" fillok="f" o:connecttype="rect"/>
+  <o:lock v:ext="edit" shapetype="t"/>
+ </v:shapetype><v:shape id="CommandButton1" o:spid="_x0000_s1025" type="#_x0000_t201"
+  style='position:absolute;margin-left:137.25pt;margin-top:93pt;width:162pt;
+  height:65.25pt;z-index:1' stroked="f" strokecolor="windowText [64]"
+  o:insetmode="auto">
+  <v:imagedata o:relid="rId1" o:title=""/>
+  <x:ClientData ObjectType="Pict">
+   <x:SizeWithCells/>
+   <x:Anchor>
+    0, 183, 5, 9, 0, 399, 10, 11</x:Anchor>
+   <x:AutoLine>False</x:AutoLine>
+   <x:CF>Pict</x:CF>
+   <x:AutoPict/>
+  </x:ClientData>
+ </v:shape></xml>

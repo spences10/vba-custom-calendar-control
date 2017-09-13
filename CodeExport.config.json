@@ -1,0 +1,7 @@
+{
+	"Module Paths": {
+		"Sheet1": "Sheet1.cls",
+		"frmTestHarness": "frmTestHarness.frm",
+		"frmCustomCalendarControl": "frmCustomCalendarControl.frm"
+	}
+}
